@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2  https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta3.xsd" 
          id="network_Soma">
 
-    <include href="TestSoma.cell.nml"/>
+    <include href="TestSoma_HELPER.cell.nml"/>
 
     <pulseGenerator id="Input_4" delay="200.0ms" duration="200.0ms" amplitude="-0.5E-5uA"/>
     <pulseGenerator id="Input_3" delay="800.0ms" duration="200.0ms" amplitude="4E-5uA"/>
